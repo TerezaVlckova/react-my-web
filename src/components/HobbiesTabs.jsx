@@ -11,6 +11,10 @@ const HobbiesTabs = () => {
     setActiveTab(tab);
   };
 
+  const getActiveTabData = () => {
+    return hobbies.find(hobby => hobby.id === activeTab)
+  };
+
   return (
     <div>
 
@@ -32,8 +36,8 @@ const HobbiesTabs = () => {
       {/* content of tabs */}
       <div className='hobbies-text'>
         {/* According to the active tab text is set */}
-        <p>{hobbies.find(hobby => hobby.id === activeTab).text}</p>
-        <img src={hobbies.find(hobby => hobby.id === activeTab).image} className='hobbies-image' alt=""></img>
+        <p>{getActiveTabData().text}</p>
+        <img src={getActiveTabData().image} className='hobbies-image' alt=""></img>
       </div>
 
     </div>

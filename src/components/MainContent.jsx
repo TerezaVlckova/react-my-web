@@ -54,7 +54,7 @@ const MainContent = () => {
       {/* <!-- Section Link to Api page Dictionary-->  */}    
       <section id="dictionary">
         <h3>Výkladový slovník</h3>
-        <p><Link to="/dictionary" className="custom-link">Přesměrování</Link> na druhou stránku webu, která využívá API pro nalezení významu anglických slov. Zdrojem je <a href="https://dictionaryapi.dev/" target="_blank" rel="noreferrer" className="custom-link">dictionaryapi.dev</a>.</p>
+        <p><Link to="/dictionary" className="custom-link">Přesměrování</Link> na druhou stránku webu, která využívá API pro nalezení významu anglických slov. Zdrojem je <a href="https://dictionaryapi.dev/" target="_blank" className="custom-link">dictionaryapi.dev</a>.</p>
       </section>
 
     </div>

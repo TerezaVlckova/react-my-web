@@ -9,7 +9,7 @@ const milestones = [
         id: 1,
         title: "Střední škola",
         tags: "LaTeX - Karel - Pascal - Delphi",
-        text: "Mé první seznámení s pokročilejšími nástroji než byl Word proběhlo na gymnáziu. Naše třída se zaměřením na matematiku a informatiku začínala se zápisem matematických vzorců v LaTeX. První \"programovací\" jazyk, který jsme si ošahali byl robot Karel. Přirovnala bych to k dnešním jednoduchým logickým hrám pro děti nebo k ZigoBotum??? (najít si to slovo). Pak jsme přešli na Pascal, ve kterém jsme si zkoušeli například klasické algoritmy řazení jako je bubble sort, merge sort. Nakonec jsme vytvářeli projekt v Delphi.",
+        text: "Mé první seznámení s pokročilejšími nástroji než byl Word proběhlo na gymnáziu. Naše třída se zaměřením na matematiku a informatiku začínala se zápisem matematických vzorců v LaTeX. První \"programovací\" jazyk, který jsme si ošahali byl robot Karel. Přirovnala bych to k dnešním jednoduchým logickým hrám pro děti. Pak jsme přešli na Pascal, ve kterém jsme si zkoušeli například klasické algoritmy řazení jako je bubble sort, merge sort. Nakonec jsme vytvářeli první jednoduché aplikace v Delphi.",
         image: milestones1
     },
     {

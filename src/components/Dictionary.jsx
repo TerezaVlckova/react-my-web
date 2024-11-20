@@ -8,8 +8,6 @@ import './Dictionary.css';
 
 const Dictionary = () => {
   
-  //prozatím budu mít slovo pevně dané, pak ho vyměním za input
-  //const word = "hello";
   const[searchWord, setSearchWord] = useState("");
   const[wordMeaning, setWordMeaning] = useState("");
   const[loading, setLoading] = useState(true);
@@ -18,7 +16,7 @@ const Dictionary = () => {
     e.preventDefault();
 
     setLoading(true);
-    if(!searchWord || searchWord === "") return;
+    if(!searchWord) return;
 
     axios
       .get(`https://api.dictionaryapi.dev/api/v2/entries/en/${searchWord}`)
@@ -60,11 +58,11 @@ const Dictionary = () => {
     </form>
 
     <div>
-      { loading && searchWord !== ""  && (
+      { loading && searchWord && (
           <p>...data loading</p>
       )}
-      { loading && searchWord === "" && (
-          <p></p>  /* Nebyl zadán výraz pro hledání */
+      { loading && !searchWord && (
+          <p></p>
       )}
       { !loading && (
         <div>

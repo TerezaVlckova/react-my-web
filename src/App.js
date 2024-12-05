@@ -3,8 +3,8 @@ import React from 'react'
 import HomePage from './pages/HomePage';
 import DictionaryPage from './pages/DictionaryPage';
 import ErrorPage from './pages/ErrorPage';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {

@@ -1,0 +1,18 @@
+.header{
+    color: white;
+    padding: 80px 30px 80px 30px;
+    background-image: url(../../img/header_photo.jpg);
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: cover; 
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 60px;
+    margin: 0;
+    color: white;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    
+}
